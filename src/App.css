@@ -1,0 +1,100 @@
+#root {
+  max-width: 25rem;
+  height: 25rem;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  background-color: antiquewhite;
+}
+
+.content {
+  display: flex;
+  justify-content: space-around;
+}
+
+.displayCity {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+}
+
+.title {
+  font-weight: 600;
+}
+
+.validation {
+  display: flex;
+  gap: 0.3rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.validationIcon {
+  width: 1.2rem;
+}
+
+.input {
+  width: 15rem;
+  height: 2rem;
+  border: hidden;
+  border-radius: 0.5rem;
+  box-shadow: 1px 1px 1px 3px gainsboro;
+}
+
+
+.language {
+  width: 1.2rem;
+  height: 1.2rem;
+}
+
+.dropdown-options {
+  display: none;
+  overflow: auto;
+  margin: 0 auto;
+  transition: 0.3s;
+}
+
+.dropdown:hover .dropdown-options {
+  display: flex;
+  flex-direction: column;
+  gap: 0.13rem;
+  cursor: pointer;
+
+}
+
+.item {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 2.5rem;
+  height: 2.5rem;
+  background-color: antiquewhite;
+  transition: 1s;
+}
+
+.item:hover {
+  background-color: aliceblue;
+  opacity: 2;
+}
+
+.city {
+  font-weight: 600;
+  font-size: 2rem;
+  line-height: 0.63rem;
+}
+
+.temperature {
+  font-weight: 900;
+  font-size: 1.9rem;
+  padding: 0.63rem;
+  border: 3px solid grey;
+  width: fit-content;
+  border-radius: 0.5rem;
+  align-self: center;
+  box-shadow: 1px 1px 1px 3px gainsboro;
+}
+
+.iconWeather {
+  align-self: center;
+  height: 5.63rem;
+}
